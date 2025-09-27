@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BoletoMuseo
+comment0.text=\r\n\ La\ clase\ {@code\ BoletoMuseo}\ representa\ un\ boleto\ emitido\ para\ ingresar\ a\ un\ museo.\r\n\ Cada\ boleto\ tiene\ un\ precio,\ un\ n\u00FAmero\ \u00FAnico\ asignado\ autom\u00E1ticamente\ y\ una\ fecha\ de\ emisi\u00F3n.\r\n\ \r\n\ @author\ Sebastian\ Sanchez\ Alvarez\r\n\ @version\ 1.0\r\n
+comment1.params=precio
+comment1.target=BoletoMuseo(double)
+comment1.text=\r\n\ Crea\ un\ nuevo\ boleto\ con\ el\ precio\ especificado.\r\n\ Asigna\ autom\u00E1ticamente\ el\ n\u00FAmero\ de\ boleto\ y\ establece\ la\ fecha\ de\ emisi\u00F3n.\r\n\r\n\ @param\ precio\ el\ precio\ del\ boleto\r\n
+comment2.params=
+comment2.target=java.lang.String\ establecerFechaEmisionBoleto()
+comment2.text=\r\n\ Establece\ la\ fecha\ de\ emisi\u00F3n\ del\ boleto\ usando\ la\ fecha\ actual\ del\ sistema.\r\n\r\n\ @return\ una\ cadena\ con\ la\ fecha\ de\ emisi\u00F3n\ en\ formato\ yyyy-MM-dd\r\n
+comment3.params=
+comment3.target=int\ getContador()
+comment3.text=\r\n\ Devuelve\ el\ n\u00FAmero\ total\ de\ boletos\ emitidos\ hasta\ el\ momento.\r\n\r\n\ @return\ el\ contador\ de\ boletos\ emitidos\r\n
+comment4.params=
+comment4.target=int\ getNumeroBoleto()
+comment4.text=\r\n\ Devuelve\ el\ n\u00FAmero\ \u00FAnico\ asignado\ a\ este\ boleto.\r\n\r\n\ @return\ el\ n\u00FAmero\ del\ boleto\r\n
+comment5.params=
+comment5.target=double\ getPrecio()
+comment5.text=\r\n\ Devuelve\ el\ precio\ de\ este\ boleto.\r\n\r\n\ @return\ el\ precio\ del\ boleto\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Devuelve\ una\ representaci\u00F3n\ en\ texto\ del\ boleto,\ incluyendo\ n\u00FAmero,\ precio\ y\ fecha\ de\ emisi\u00F3n.\r\n\r\n\ @return\ una\ cadena\ con\ los\ detalles\ del\ boleto\r\n
+numComments=7
